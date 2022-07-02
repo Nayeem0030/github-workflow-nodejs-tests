@@ -6,8 +6,6 @@ name: Node.js ci
 on:
   push:
     branches: [ main ]
-  pull:
-    branches: [ main ]
   pull_request:
     branches: [ main ]
 
