@@ -29,6 +29,6 @@ jobs:
     - run: npm ci
     - run: npm test
     - the hello world program
-console.log('Hello World');
+    - console.log('Hello World');
 
 
