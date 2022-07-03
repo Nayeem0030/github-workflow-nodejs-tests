@@ -29,11 +29,8 @@ jobs:
     - run: npm ci
     - run: npm test
     name: Hello World
-
-
-
-jobs:
-  print-hello-world:
+    jobs:
+    print-hello-world:
     runs-on: ubuntu-latest
 
     steps:
