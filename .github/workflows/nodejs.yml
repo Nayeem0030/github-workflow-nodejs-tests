@@ -28,6 +28,7 @@ jobs:
         cache: 'npm'
     - run: npm ci
     - run: npm test
+    
     steps:
     - name: Say hello
       run: echo "Hello World"
